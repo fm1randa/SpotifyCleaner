@@ -5,12 +5,12 @@ Takes a given Spotify playlist and checks every song and attempts to find a non-
 
 ## Prerequisites
 * [A Spotify dev app](https://developer.spotify.com/dashboard/login)
-* [Python](https://www.python.org/downloads/)
+* [Node.js](https://nodejs.org/en/)
 
 ## Installation
 
 ```bash
-pip install -r requirements.txt
+npm install
 ```
 
 After creating your Spotify app, open the config.json (rename config-example.json to config.json) and fill in your client id and secret. You probably don't need to change the redirect url but you **must** add the redirect url to your whitelisted urls on the Spotify dashboard or the login will not work.
@@ -18,5 +18,5 @@ After creating your Spotify app, open the config.json (rename config-example.jso
 ## Running
 
 ```bash
-python main.py
+ts-node main.ts
 ```

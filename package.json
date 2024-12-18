@@ -1,0 +1,16 @@
+{
+  "name": "spotify-cleaner",
+  "version": "1.0.0",
+  "description": "A simple script to convert an explicit Spotify playlist into a non-explicit one",
+  "main": "main.ts",
+  "scripts": {
+    "start": "ts-node main.ts"
+  },
+  "dependencies": {
+    "@spotify/web-api-ts-sdk": "^1.0.0",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
